@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
-
+import re
+import time
 def fbtw (s, first, last ):
     try:
         start = s.index( first ) + len( first )
@@ -20,6 +21,19 @@ def finder(searchString,endString):
                 ii+= 1
     return data
 
+def zipfinder():
+    with open('ecad2013.txt') as ecad:
+        data = {}
+        ii = 0
+        for i, line in enumerate(ecad):
+            if 'human_address' in line:
+                tdata = re.findall('\*\d{5}\*', line)
+                tdata = tdata[0]
+                tdata = tdata.replace("*","")
+                data[ii] = tdata
+                ii+= 1
+    return data
+
 cndata = finder("community_name: ",",")
 addata = finder("audit_date: ",",")
 wsdata = finder("window_screens: ",",")
@@ -30,7 +44,8 @@ cedata = finder("community_eui_kwh_sqft_yr: ",",")
 ladata = finder("latitude: ",",")
 lodata = finder("longitude: ",",")
 sadata = finder("human_address:*address*: *","*, ")
-dataStored = pd.DataFrame([cndata,addata,wsdata,ybdata,udata,tudata,cedata,ladata,lodata,sadata])
+zidata = zipfinder()
+dataStored = pd.DataFrame([cndata,addata,wsdata,ybdata,udata,tudata,cedata,ladata,lodata,sadata,zidata])
 dataStored.transpose()
 dataStored.to_csv("ecad_data.csv")
 
