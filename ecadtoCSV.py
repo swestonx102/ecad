@@ -9,28 +9,28 @@ def fbtw (s, first, last ):
     except ValueError:
         return ""
 
-def finder(searchString):
+def finder(searchString,endString):
     with open('ecad2013.txt') as ecad:
         data = {}
         ii = 0
         for i, line in enumerate(ecad):
-            tdata = fbtw(line, searchString,",")
+            tdata = fbtw(line, searchString,endString)
             if len(tdata) > 0:
                 data[ii] = tdata
                 ii+= 1
     return data
 
-cndata = finder("community_name: ")
-addata = finder("audit_date: ")
-wsdata = finder("window_screens: ")
-ybdata = finder("year_built: ")
-udata = finder("utilities: ")
-tudata = finder("total_units: ")
-cedata = finder("community_eui_kwh_sqft_yr: ")
-ladata = finder("latitude: ")
-lodata = finder("longitude: ")
-
-dataStored = pd.DataFrame([cndata,addata,wsdata,ybdata,udata,tudata,cedata,ladata,lodata])
+cndata = finder("community_name: ",",")
+addata = finder("audit_date: ",",")
+wsdata = finder("window_screens: ",",")
+ybdata = finder("year_built: ",",")
+udata = finder("utilities: ",",")
+tudata = finder("total_units: ",",")
+cedata = finder("community_eui_kwh_sqft_yr: ",",")
+ladata = finder("latitude: ",",")
+lodata = finder("longitude: ",",")
+sadata = finder("human_address:*address*: *","*, ")
+dataStored = pd.DataFrame([cndata,addata,wsdata,ybdata,udata,tudata,cedata,ladata,lodata,sadata])
 dataStored.transpose()
 dataStored.to_csv("ecad_data.csv")
 
