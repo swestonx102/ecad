@@ -1,0 +1,32 @@
+This folder contains the following files: 
+
+ecad2013raw.txt, the "raw" JSON code from austindata.org. It differs 
+from the JSON code in that I have removed all of the double quotations. JSON 
+is not actually used for this project.
+
+ecad2013.txt, a version of ecad2013raw.txt which has had all of the 
+unnecessary lines removed with vim. Done to make the python code more 
+efficient.
+
+ecadtoCSV.py, python script that turns the data in ecad2013 into a .csv
+
+ecadtoCSVwComments.py, commented version of script
+
+ecad_data.csv, the spreadsheet generated
+
+ecadData.m, a Matlab script that interprets the data. Not a point of focus,
+I just wanted to mess around with the data in Matlab. It would be better to
+do so in Pandas
+
+arScrapeSelenium.py, a broken attempt at scraping with selenium. Selenium shows promise because,
+for a brief moment, I managed to capture the price information for Greenbriar Apartments directly
+from the Google search result. Apartmentratings is already being a big poopypants about how I'm 
+using the site, so if this method is possible, it is ideal. It will also prevent worrisome 
+legalities in the event that this research is published.
+
+arScrapeBs4.py, a more-successful attempt at scraping with BeautifulSoup. The method for this
+script is to find every URL on the google search results page, then use a regex to grab the one 
+that is in Austin. It generates google search URLs such that only one result is shown.
+
+
+
