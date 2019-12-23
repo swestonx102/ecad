@@ -113,7 +113,7 @@
             longitude: -97.7443575479997,
             human_address:*address*: *507 West 16th Street*, *city*: *Austin*, *state*: *TX*, *zip*: *78701*
        
-   
+        community_name: none,
         audit_date: 2012-11-20T00:00:00.000,
         percent_duct_leakage: 16,
         recommend_duct_leakage: 10%,
@@ -146,7 +146,7 @@
             longitude: -97.78296811499968,
             human_address:*address*: *3506 Manchaca*, *city*: *Austin*, *state*: *TX*, *zip*: *78704*
        
-   
+        community_name: none,
         audit_date: 2012-11-20T00:00:00.000,
         recommend_duct_leakage: N**A,
         window_screens: Neeed,
@@ -1804,7 +1804,7 @@
             longitude: -97.6979192179997,
             human_address:*address*: *3201 Century Park*, *city*: *Austin*, *state*: *TX*, *zip*: *78727*
        
-   
+        community_name: none,
         audit_date: 2011-01-31T00:00:00.000,
         recommend_duct_leakage: N**A,
         window_screens: Needed,
@@ -2083,7 +2083,7 @@
             longitude: -97.74528849399968,
             human_address:*address*: *702 W. 22nd Street*, *city*: *Austin*, *state*: *TX*, *zip*: *78705*
        
-   
+        community_name: none,
         audit_date: 2011-04-26T00:00:00.000,
         recommend_duct_leakage: N**A,
         attic_r_value: 12,
@@ -2199,7 +2199,7 @@
             longitude: -97.79951076399965,
             human_address:*address*: *2301 S MoPac Expwy*, *city*: *Austin*, *state*: *TX*, *zip*: *78746*
        
-   
+        community_name: none,
         audit_date: 2011-03-29T00:00:00.000,
         percent_duct_leakage: 28,
         recommend_duct_leakage: 10%,
@@ -3508,7 +3508,7 @@
             longitude: -97.74519255699965,
             human_address:*address*: *2704 Salado St*, *city*: *Austin*, *state*: *TX*, *zip*: *78704*
        
-   
+        community_name: none,
         audit_date: 2011-03-30T00:00:00.000,
         percent_duct_leakage: 28,
         recommend_duct_leakage: 10%,
@@ -3723,7 +3723,7 @@
             longitude: -97.74511083299967,
             human_address:*address*: *1801 Rio Grande St*, *city*: *Austin*, *state*: *TX*, *zip*: *78701*
        
-   
+        community_name: none,
         audit_date: 2013-08-07T00:00:00.000,
         percent_duct_leakage: 47,
         recommend_duct_leakage: 15%,
@@ -4624,7 +4624,7 @@
             longitude: -97.7547779839997,
             human_address:*address*: *1212 West 13th Street*, *city*: *Austin*, *state*: *TX*, *zip*: *78703*
        
-   
+        community_name: none,
         audit_date: 2011-04-28T00:00:00.000,
         percent_duct_leakage: 43,
         recommend_duct_leakage: 10%,
@@ -5322,7 +5322,7 @@
             longitude: -97.73382340899968,
             human_address:*address*: *313 W 41st*, *city*: *Austin*, *state*: *TX*, *zip*: *78751*
        
-   
+        community_name: none,
         audit_date: 2012-02-01T00:00:00.000,
         recommend_duct_leakage: N**A,
         window_screens: No Info,
@@ -5901,7 +5901,7 @@
             longitude: -97.72495336599968,
             human_address:*address*: *903 Romeria Dr.*, *city*: *Austin*, *state*: *TX*, *zip*: *78752*
        
-   
+        community_name: none,
         audit_date: 2012-12-12T00:00:00.000,
         percent_duct_leakage: 15,
         recommend_duct_leakage: 10%,
@@ -6251,7 +6251,7 @@
             longitude: -97.79700929099965,
             human_address:*address*: *12425 MELLOW MEADOWS DR*, *city*: *Austin*, *state*: *TX*, *zip*: *78750*
        
-   
+        community_name: none,
         audit_date: 2011-04-25T00:00:00.000,
         recommend_duct_leakage: N**A,
         attic_r_value: 24,
@@ -7374,7 +7374,7 @@
             longitude: -97.72061250499968,
             human_address:*address*: *923 East 41st St.*, *city*: *Austin*, *state*: *TX*, *zip*: *78751*
        
-   
+        community_name: none,
         audit_date: 2011-05-20T00:00:00.000,
         percent_duct_leakage: 7,
         recommend_duct_leakage: 15%,
