@@ -8987,7 +8987,7 @@
             longitude: -97.79667647099967,
             human_address:*address*: *5426 MANCHACA RD*, *city*: *Austin*, *state*: *TX*, *zip*: *78745*
        
-   
+   	community_name: none,
         audit_date: 2011-05-31T00:00:00.000,
         recommend_duct_leakage: N**A,
         attic_r_value: 19,
@@ -9483,7 +9483,7 @@
             longitude: -97.76342891099966,
             human_address:*address*: *2402 S. 4th St*, *city*: *Austin*, *state*: *TX*, *zip*: *78704*
        
-   
+   	community_name: none,
         audit_date: 2011-04-25T00:00:00.000,
         percent_duct_leakage: 75,
         recommend_duct_leakage: 10%,
@@ -9616,7 +9616,7 @@
             longitude: -97.7157126029997,
             human_address:*address*: *505 KENNISTON DR*, *city*: *Austin*, *state*: *TX*, *zip*: *78752*
        
-   
+   	community_name: none,
         audit_date: 2012-11-16T00:00:00.000,
         percent_duct_leakage: 28.4,
         recommend_duct_leakage: 10%,
@@ -11443,7 +11443,7 @@
             longitude: -97.73492846399967,
             human_address:*address*: *206 W. 38th St*, *city*: *Austin*, *state*: *TX*, *zip*: *78705*
        
-   
+   	community_name: none,
         audit_date: 2013-08-09T00:00:00.000,
         percent_duct_leakage: 58.9,
         recommend_duct_leakage: 10%,
